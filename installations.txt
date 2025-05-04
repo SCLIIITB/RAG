@@ -1,0 +1,12 @@
+pip install ollama
+ollama pull mistral
+ollama pull nomic-embed-text
+pip install -U sentence-transformers
+pip install unstructured
+pip install pandas
+pip install chromadb
+pip install langchain
+pip install langchain_community
+pip install boto3
+pip install jq
+pip install openpyxl
