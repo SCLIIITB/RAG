@@ -9,13 +9,13 @@ from get_embedding_function import get_embedding_function
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
-Answer the question based only on the following context:
+Answer the question based only on the following context. Please note that the 'exact_include' is also known as or written as 'exact_regex_terms' and 'ignore_include' is also known as or written as 'ignore_regex_terms':
 
 {context}
 
 ---
 
-Answer the question based on the above context: {question}
+Answer the question based on the above context. Please note that the 'exact_include' is also known as or written as 'exact_regex_terms' and 'ignore_include' is also known as or written as 'ignore_regex_terms': {question}
 """
 
 
